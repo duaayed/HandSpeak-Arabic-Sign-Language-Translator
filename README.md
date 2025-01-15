@@ -8,4 +8,4 @@
   <hr style="border: 3px solid black; width: 80%;">
 </div>
 <h2 align="left">Overview</h2>
-
+Sign language consists of gestures and expressions used mainly by the hearing-impaired to talk. This project is an effort to bridge the communication gap between the hearing and the hearing-impaired community using Artificial Intelligence.
