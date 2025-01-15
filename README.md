@@ -249,7 +249,7 @@ model_training_history = model.fit(
 </div>
 
 <h3 align="left">Model Optimization techniques</h3>
-• **Early Stopping Technique**
+• Early Stopping Technique <br>
 The early stopping technique is used to reduce overfitting without compromising on the
 model’s accuracy. It consists of stopping training the model when the validation loss begins to
 increase while the training loss continues to decrease.
