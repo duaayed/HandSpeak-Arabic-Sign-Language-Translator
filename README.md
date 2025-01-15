@@ -45,4 +45,7 @@ After extensive research and evaluation of various datasets, we concluded that K
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a8fec0c9-b0a4-4c68-820d-4fcc16c6a95b" alt="logo">
 </div>
-<h4 align="center">You can access the dataset here: [KARSL Dataset](https://hamzah-luqman.github.io/KArSL/)</h4>
+<div align="center">
+  You can access the dataset here: [KARSL Dataset](https://hamzah-luqman.github.io/KArSL/)
+</div>
+
