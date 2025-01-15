@@ -38,3 +38,7 @@ Due to the small number of people who can read sign language, deaf people freque
 1. Enable integration of sign language into existing applications. <br>
 2. Improve education quality for the deaf and elevate literacy rates. <br>
 3. Promote communication inclusivity of the hearing impaired. <br>
+
+
+<h2 align="left">Dataset</h2>
+After extensive research and evaluation of various datasets, we concluded that KArSL is the most comprehensive and reliable dataset available for Arabic Sign Language (ArSL). KArSL is the largest video dataset specifically designed for word-level ArSL recognition, widely used across Arab countries. It contains 502 isolated sign words, each performed by three professional signers and repeated 50 times per signer.
