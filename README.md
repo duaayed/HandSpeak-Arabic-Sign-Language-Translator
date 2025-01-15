@@ -165,3 +165,8 @@ predictions.
 In our study, we observed that many signs in the dataset shared similar starting or ending gestures. This overlap in sequential patterns made the bidirectional nature of BiLSTM particularly valuable. By processing the
 data in both forward and backward directions, BiLSTM allowed the model to better capture contextual dependencies from both ends of the sequence, leading to more precise and reliable gesture recognition. This made BiLSTM
 the ideal choice for addressing the challenges posed by the intricate structure of our dataset.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
+  <img src="https://github.com/user-attachments/assets/a2bdabfa-c3c3-430a-a2e1-c6b219c9e75d" alt="Model_2">
+</div>
