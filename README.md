@@ -168,5 +168,5 @@ the ideal choice for addressing the challenges posed by the intricate structure 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
-  <img src="https://github.com/user-attachments/assets/a2bdabfa-c3c3-430a-a2e1-c6b219c9e75d" alt="Model_2">
+  <img src="https://github.com/user-attachments/assets/a2bdabfa-c3c3-430a-a2e1-c6b219c9e75d" alt="Model_2" width="500">
 </div>
