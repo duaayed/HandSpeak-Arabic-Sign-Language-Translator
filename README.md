@@ -255,5 +255,5 @@ model’s accuracy. It consists of stopping training the model when the validati
 increase while the training loss continues to decrease.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/28bb8c53-7e46-49f4-ad5e-828746fd204c" alt="Early_Stopping">
+  <img src="https://github.com/user-attachments/assets/66fd95b2-c29d-4513-84f0-64e35e939d3f" alt="Early_Stopping">
 </div>
