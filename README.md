@@ -41,7 +41,8 @@ Due to the small number of people who can read sign language, deaf people freque
 
 
 <h2 align="left">Dataset</h2>
-After extensive research and evaluation of various datasets, we concluded that KArSL is the most comprehensive and reliable dataset available for Arabic Sign Language (ArSL). KArSL is the largest video dataset specifically designed for word-level ArSL recognition, widely used across Arab countries. It contains 502 isolated sign words, each performed by three professional signers and repeated 50 times per signer.
+After extensive research and evaluation of various datasets, we concluded that KArSL is the most comprehensive and reliable dataset available for Arabic Sign Language (ArSL). KArSL is the largest video dataset
+specifically designed for word-level ArSL recognition, widely used across Arab countries. It contains 502 isolated sign words, each performed by three professional signers and repeated 50 times per signer.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a8fec0c9-b0a4-4c68-820d-4fcc16c6a95b" alt="logo">
 </div>
@@ -163,7 +164,7 @@ performed by professional signers. This section details the key steps involved i
 
 <details>
   <summary><h3 align="left">Data Extraction</h3></summary>
-  Each video was analyzed frame by frame to extract keypoints using MediaPipe. This included
+  Each video was analyzed frame by frame to extract keypoints using MediaPipe.
 
   i. **Pose Keypoints**: Representing the full-body structure. <br>
   ii. **Left Hand Keypoints**: Capturing detailed movements of the left hand. <br>
@@ -176,13 +177,22 @@ All keypoints were normalized to remove variations caused by different scales an
 
 <details>
   <summary><h3 align="left">Generating Arrays</h3></summary>
-  Three arrays were created from the processed data:
+  Three arrays were created from the processed data
   
   i. **pose-adjusted**: Adjusted keypoints for the pose in each frame. <br>
   ii. **lh-adjusted**: Adjusted keypoints for the left hand in each frame. <br>
   iii. **rh-adjusted**: Adjusted keypoints for the right hand in each frame.
 
 </details>
+
+<h3 align="left">Challenges Faced</h3>
+- Variations in Gestures: Similar starting or ending gestures across different classes required careful preprocessing to ensure clear differentiation. <br>
+- Lighting and Background Differences: Frames were preprocessed to mitigate the impact of varying environmental conditions on keypoint detection. <br>
+
+<h3 align="left">Outcome</h3>
+The prepared dataset was optimized for input into the Bidirectional LSTM model. By focusing on normalized and adjusted keypoints, we ensured that the model could learn robustly from the sequential data, leading to high
+accuracy in gesture recognition. This step played a pivotal role in the success of the project.
+
 
 <h2 align="left">LSTM Model</h2>
 To develop our Arabic sign language model, we utilized a BiLSTM architecture, which is an extension of the Long Short-Term Memory (LSTM) network. LSTM, a type of Recurrent Neural Network (RNN), is specifically designed
