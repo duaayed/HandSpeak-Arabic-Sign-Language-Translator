@@ -167,6 +167,6 @@ data in both forward and backward directions, BiLSTM allowed the model to better
 the ideal choice for addressing the challenges posed by the intricate structure of our dataset.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/2213fc63-090d-4f48-a592-74684ce4d950" alt="Model">
-  <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model_2" width="500">
+  <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
+  <img src="https://github.com/user-attachments/assets/ebc61cf6-db05-462d-8fa8-2ef778d9d28e" alt="Model_2" width="500">
 </div>
