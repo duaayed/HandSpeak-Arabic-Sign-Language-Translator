@@ -87,7 +87,7 @@ After extensive research and evaluation of various datasets, we concluded that K
     </tr>
     <tr>
       <td>166</td>
-      <td>شم</td>
+      <td>يشم</td>
       <td>Inhale</td>
     </tr>
     <tr>
