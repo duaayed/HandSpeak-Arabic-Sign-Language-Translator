@@ -33,6 +33,6 @@ Sign language consists of gestures and expressions used mainly by the hearing-im
 </details>
 
 <h2 align="left">Goals</h2>
-1. Enable integration of sign language into existing applications.
-2. Improve education quality for the deaf and elevate literacy rates.
-3. Promote communication inclusivity of the hearing impaired.
+1. Enable integration of sign language into existing applications. <br>
+2. Improve education quality for the deaf and elevate literacy rates. <br>
+3. Promote communication inclusivity of the hearing impaired. <br>
