@@ -184,7 +184,7 @@ performed by professional signers. This section details the key steps involved i
 
 <details>
   <summary><h3 align="left">Data Extraction</h3></summary>
-  Each video was analyzed frame by frame to extract keypoints using MediaPipe.<br>
+  Each video was analyzed frame by frame to extract keypoints using MediaPipe. <br>
 
   i. **Pose Keypoints**: Representing the full-body structure. <br>
   ii. **Left Hand Keypoints**: Capturing detailed movements of the left hand. <br>
@@ -197,7 +197,7 @@ All keypoints were normalized to remove variations caused by different scales an
 
 <details>
   <summary><h3 align="left">Generating Arrays</h3></summary>
-  Three arrays were created from the processed data<br>
+  Three arrays were created from the processed data<br> <br>
   
   i. **pose-adjusted**: Adjusted keypoints for the pose in each frame. <br>
   ii. **lh-adjusted**: Adjusted keypoints for the left hand in each frame. <br>
