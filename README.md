@@ -44,7 +44,7 @@ Due to the small number of people who can read sign language, deaf people freque
 After extensive research and evaluation of various datasets, we concluded that KArSL is the most comprehensive and reliable dataset available for Arabic Sign Language (ArSL). KArSL is the largest video dataset
 specifically designed for word-level ArSL recognition, widely used across Arab countries. It contains 502 isolated sign words, each performed by three professional signers and repeated 50 times per signer.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a8fec0c9-b0a4-4c68-820d-4fcc16c6a95b" alt="logo">
+  <img src="https://github.com/user-attachments/assets/a8fec0c9-b0a4-4c68-820d-4fcc16c6a95b" alt="KARSL">
 </div>
 <div align="center">
   You can access the dataset here: <a href="https://hamzah-luqman.github.io/KArSL/">KARSL Dataset</a>
@@ -132,7 +132,7 @@ pose, the left hand, and the right hand, respectively. The adjustments ensured t
 critical for improving the robustness and precision of our system's predictions.
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="logo">
+  <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints">
 </div>
 
 <h2 align="left">Usability and User Experience Goals</h2>
@@ -195,6 +195,8 @@ accuracy in gesture recognition. This step played a pivotal role in the success 
 
 
 <h2 align="left">LSTM Model</h2>
+
+<h3 align="left">Model architecture</h3>
 To develop our Arabic sign language model, we utilized a BiLSTM architecture, which is an extension of the Long Short-Term Memory (LSTM) network. LSTM, a type of Recurrent Neural Network (RNN), is specifically designed
 to model and analyze sequential data. It excels in handling long sequences by selectively retaining or discarding information at each time step, enabling it to capture long-range dependencies and make accurate
 predictions.
@@ -243,3 +245,4 @@ model_training_history = model.fit(
   <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
   <img src="https://github.com/user-attachments/assets/ebc61cf6-db05-462d-8fa8-2ef778d9d28e" alt="Model_2" width="500">
 </div>
+
