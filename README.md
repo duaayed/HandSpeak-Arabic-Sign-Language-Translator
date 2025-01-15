@@ -257,3 +257,95 @@ increase while the training loss continues to decrease.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/66fd95b2-c29d-4513-84f0-64e35e939d3f" alt="Early_Stopping">
 </div>
+
+• Adam Optimization Algorithm <br>
+Adam is an optimization algorithm that can be used instead of the classical stochastic gradient descent procedure to update network weights iterative based in training data.[14]
+It offers adaptive learning rates, which dynamically adjust the learning rate for each parameter based on past gradients. This adaptivity provides faster convergence and improves performance across various data and model
+architectures.
+
+<h3 align="left">Model Parameters</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Argument</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>layers</b></td>
+      <td>list</td>
+      <td>2 Bidirectional LSTM, 2 Dense</td>
+      <td>Defines the model architecture: 2 Bidirectional LSTM layers followed by Dense layers for classification.</td>
+    </tr>
+    <tr>
+      <td><b>units</b></td>
+      <td>int</td>
+      <td>64</td>
+      <td>Number of units (hidden neurons) in each LSTM layer.</td>
+    </tr>
+    <tr>
+      <td><b>activation_dense</b></td>
+      <td>str</td>
+      <td>relu and softmax</td>
+      <td>Activation functions for Dense layers: relu for the hidden layer and softmax for the output layer.</td>
+    </tr>
+    <tr>
+      <td><b>optimizer</b></td>
+      <td>str</td>
+      <td>adam</td>
+      <td>Optimization algorithm for training.</td>
+    </tr>
+    <tr>
+      <td><b>loss</b></td>
+      <td>str</td>
+      <td>categorical_crossentropy</td>
+      <td>Loss function for multi-class classification tasks.</td>
+    </tr>
+    <tr>
+      <td><b>metrics</b></td>
+      <td>list</td>
+      <td>['categorical_accuracy']</td>
+      <td>Metrics to evaluate the model's performance during training.</td>
+    </tr>
+    <tr>
+      <td><b>batch_size</b></td>
+      <td>int</td>
+      <td>32</td>
+      <td>Number of samples per batch for training and validation.</td>
+    </tr>
+    <tr>
+      <td><b>epochs</b></td>
+      <td>int</td>
+      <td>50</td>
+      <td>Maximum number of training iterations.</td>
+    </tr>
+    <tr>
+      <td><b>early_stopping</b></td>
+      <td>dict</td>
+      <td>See description</td>
+      <td>Early stopping configuration to prevent overfitting. Monitors <code>val_loss</code>, with patience of 5 epochs.</td>
+    </tr>
+    <tr>
+      <td><b>validation_split</b></td>
+      <td>float</td>
+      <td>0.2</td>
+      <td>Fraction of training data used for validation (20%).</td>
+    </tr>
+    <tr>
+      <td><b>input_shape</b></td>
+      <td>tuple</td>
+      <td>(frames, features)</td>
+      <td>Input shape for the LSTM model, determined by the preprocessed sequence length and features.</td>
+    </tr>
+    <tr>
+      <td><b>output_classes</b></td>
+      <td>int</td>
+      <td>len(words)</td>
+      <td>Number of classes in the output layer, based on the unique words/signs in the dataset.</td>
+    </tr>
+  </tbody>
+</table>
