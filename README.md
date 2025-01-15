@@ -246,3 +246,4 @@ model_training_history = model.fit(
   <img src="https://github.com/user-attachments/assets/ebc61cf6-db05-462d-8fa8-2ef778d9d28e" alt="Model_2" width="500">
 </div>
 
+<h3 align="left">Model Optimization techniques</h3>
