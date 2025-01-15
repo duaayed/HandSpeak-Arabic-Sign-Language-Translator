@@ -52,7 +52,7 @@ After extensive research and evaluation of various datasets, we concluded that K
  <div style="display: flex; justify-content: flex-start; align-items: flex-start;">
 
   <!-- Table -->
-  <div style="margin-right: 5px;">
+  <div style="margin-right: 20px;">
     <table>
       <thead>
         <tr>
