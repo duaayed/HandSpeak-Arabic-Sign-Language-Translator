@@ -28,9 +28,9 @@ Due to the small number of people who can read sign language, deaf people freque
   
   The scope of this project is to develop an artificial intelligence model that translates sign language into words in real-time, enhancing communication and accessibility for the hearing-impaired community.
 
-  i. Ensure Real-Time Translation: Implement real-time processing to provide immediate translation of sign language to natural language. <br>
-  ii. Support Arabic Language: Focus on providing accurate translation for gestures specific to Arabic sign language, catering to the needs of the Arabic-speaking community. <br>
-  iii. Bridging the communication barriers between deaf people and the community.
+  i. **Ensure Real-Time Translation**: Implement real-time processing to provide immediate translation of sign language to natural language. <br>
+  ii. **Support Arabic Language**: Focus on providing accurate translation for gestures specific to Arabic sign language, catering to the needs of the Arabic-speaking community. <br>
+  iii. **Bridging the communication barrier**s between deaf people and the community.
 
 </details>
 
@@ -133,3 +133,22 @@ critical for improving the robustness and precision of our system's predictions.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="logo">
 </div>
+
+<h2 align="left">Usability and User Experience Goals</h2>
+<details>
+  <summary><h3 align="left">Usability Goals</h3></summary>
+
+  i. **Real-Time Performance**: Deliver seamless and real-time gesture recognition to avoid delays, ensuring smooth communication without interruptions. <br>
+  ii. **Error Tolerance**: Implement robust algorithms that can adapt to variations in gestures, lighting, and camera quality, minimizing errors in recognition. <br>
+  iii. **Efficiency**: Optimize the model for real-time translation, ensuring fast and accurate recognition of gestures without noticeable delays. <br>
+  iv. **Integration**: Enable seamless integration with commonly used communication tools like video conferencing platforms, making the solution more versatile.
+
+</details>
+
+<details>
+  <summary><h3 align="left">User Experience Goals</h3></summary>
+
+  i. **Educational Value**: Incorporate features that allow non-signers to learn basic sign language gestures, fostering inclusivity and understanding. <br>
+  ii. **Transparency**: Provide clear feedback to users about recognized gestures, enhancing confidence in the system’s accuracy.
+
+</details>
