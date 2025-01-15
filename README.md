@@ -135,6 +135,10 @@ critical for improving the robustness and precision of our system's predictions.
 </div>
 
 <h2 align="left">Usability and User Experience Goals</h2>
+The usability and user experience goals of this project were carefully designed to prioritize seamless interaction and accessibility. The primary focus was to deliver a system capable of recognizing gestures in real
+time, ensuring users experience smooth and uninterrupted communication. Robust algorithms were implemented to handle diverse conditions, including variations in gestures, lighting, and camera quality, while maintaining
+high accuracy. Additionally, the solution was optimized for efficiency, enabling quick response times without compromising on accuracy. By emphasizing integration with widely used communication tools, the project aimed
+to make the system adaptable and valuable in various real-world scenarios, ensuring it meets the needs of a diverse user base.
 <details>
   <summary><h3 align="left">Usability Goals</h3></summary>
 
