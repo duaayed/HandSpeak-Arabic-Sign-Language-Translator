@@ -156,3 +156,12 @@ to make the system adaptable and valuable in various real-world scenarios, ensur
   ii. **Transparency**: Provide clear feedback to users about recognized gestures, enhancing confidence in the system’s accuracy.
 
 </details>
+
+<h2 align="left">LSTM Model</h2>
+To develop our Arabic sign language model, we utilized a BiLSTM architecture, which is an extension of the Long Short-Term Memory (LSTM) network. LSTM, a type of Recurrent Neural Network (RNN), is specifically designed
+to model and analyze sequential data. It excels in handling long sequences by selectively retaining or discarding information at each time step, enabling it to capture long-range dependencies and make accurate
+predictions.
+
+In our study, we observed that many signs in the dataset shared similar starting or ending gestures. This overlap in sequential patterns made the bidirectional nature of BiLSTM particularly valuable. By processing the
+data in both forward and backward directions, BiLSTM allowed the model to better capture contextual dependencies from both ends of the sequence, leading to more precise and reliable gesture recognition. This made BiLSTM
+the ideal choice for addressing the challenges posed by the intricate structure of our dataset.
