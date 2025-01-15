@@ -200,6 +200,7 @@ model_training_history = model.fit(
     epochs=50, 
     callbacks=[early_stopping]
 )
+```
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
