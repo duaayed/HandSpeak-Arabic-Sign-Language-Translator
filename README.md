@@ -50,7 +50,7 @@ After extensive research and evaluation of various datasets, we concluded that K
 </div>
 <br><br>
 
-we utilized the KARSL Dataset. The dataset comprises 502 distinct sign classes, each performed by two signers. These classes were carefully curated to represent a wide range of Arabic sign language
+We utilized the KARSL Dataset. The dataset comprises 502 distinct sign classes, each performed by two signers. These classes were carefully curated to represent a wide range of Arabic sign language
 gestures. The dataset provided a robust foundation for training and evaluating our artificial intelligence model, enabling us to bridge the communication gap between Arabic spoken language and Arabic sign language.
 
 <br>
@@ -126,7 +126,7 @@ gestures. The dataset provided a robust foundation for training and evaluating o
 </div>
 
 <br><br>
-In this project, we processed the input frames from the **KARSL Dataset** to generate three specific arrays: **pose-adjusted**, **lh-adjusted**, and **rh-adjusted**. These arrays represent the adjusted keypoints for the
+We processed the input frames from the **KARSL Dataset** to generate three specific arrays: **pose-adjusted**, **lh-adjusted**, and **rh-adjusted**. These arrays represent the adjusted keypoints for the
 pose, the left hand, and the right hand, respectively. The adjustments ensured that the keypoints were normalized and aligned correctly, enabling consistent and accurate input for the model. This preprocessing step was
 critical for improving the robustness and precision of our system's predictions.
 <br>
