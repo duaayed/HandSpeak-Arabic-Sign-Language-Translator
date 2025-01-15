@@ -14,18 +14,18 @@
     • [Project Scope](#project-scope)<br>
     • [Goals](#goals)
 2. [Dataset](#dataset)
-3. [Usability and User Experience Goals](#usability-and-user-experience-goals)
-   - • [Usability Goals](#usability-goals)
-   - • [User Experience Goals](#user-experience-goals)
-4. [Preparing the Dataset](#preparing-the-dataset)
-   - • [Data Extraction](#data-extraction)
-   - • [Normalization](#normalization)
-   - • [Generating Arrays](#generating-arrays)
-   - • [Outcome](#outcome)
-5. [LSTM Model](#lstm-model)
-   - • [Model Architecture](#model-architecture)
-   - • [Model Optimization Techniques](#model-optimization-techniques)
-   - • [Model Parameters](#model-parameters)
+3. [Usability and User Experience Goals](#usability-and-user-experience-goals)<br>
+    • [Usability Goals](#usability-goals)<br>
+    • [User Experience Goals](#user-experience-goals)
+4. [Preparing the Dataset](#preparing-the-dataset)<br>
+    • [Data Extraction](#data-extraction)<br>
+    • [Normalization](#normalization)<br>
+    • [Generating Arrays](#generating-arrays)<br>
+    • [Outcome](#outcome)
+5. [LSTM Model](#lstm-model)<br>
+    • [Model Architecture](#model-architecture)<br>
+    • [Model Optimization Techniques](#model-optimization-techniques)<br>
+    • [Model Parameters](#model-parameters)
 
 <h2 align="left">Overview</h2>
 Sign language consists of gestures and expressions used mainly by the hearing-impaired to talk. This project is an effort to bridge the communication gap between the hearing and the hearing-impaired community using Artificial Intelligence.
