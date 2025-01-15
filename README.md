@@ -49,8 +49,10 @@ After extensive research and evaluation of various datasets, we concluded that K
   You can access the dataset here: <a href="https://hamzah-luqman.github.io/KArSL/">KARSL Dataset</a>
 </div>
 
-<div align="center">
-  <div style="display: inline-block; vertical-align: top;">
+<div align="center" style="display: flex; justify-content: center; align-items: flex-start;">
+
+  <!-- Table -->
+  <div style="margin-right: 20px;">
     <table>
       <thead>
         <tr>
@@ -119,10 +121,9 @@ After extensive research and evaluation of various datasets, we concluded that K
     </table>
   </div>
 
-  <div style="display: inline-block; vertical-align: top; margin-left: 20px;">
+  <!-- Image -->
+  <div>
     <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints" width="300">
   </div>
+
 </div>
-
-
-
