@@ -1,7 +1,7 @@
 <h1 align="center">HandSpeak</h1>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/da210bca-cbf0-4a2b-83dd-32cd73147f4d" alt="logo" >
-  <img src="https://github.com/user-attachments/assets/5f69082a-717b-4492-ab5d-74e2dbd22ac2" alt="Poster">
+  <img src="https://github.com/user-attachments/assets/da210bca-cbf0-4a2b-83dd-32cd73147f4d" alt="logo" width="300">
+  <img src="https://github.com/user-attachments/assets/5f69082a-717b-4492-ab5d-74e2dbd22ac2" alt="Poster" width="300">
 </div>
 <h4 align="center">Sign Language Model to Translate Arabic sign Language Into Text</h4>
 <div align="center">
