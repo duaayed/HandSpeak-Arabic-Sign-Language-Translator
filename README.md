@@ -166,7 +166,7 @@ In our study, we observed that many signs in the dataset shared similar starting
 data in both forward and backward directions, BiLSTM allowed the model to better capture contextual dependencies from both ends of the sequence, leading to more precise and reliable gesture recognition. This made BiLSTM
 the ideal choice for addressing the challenges posed by the intricate structure of our dataset.
 
-<br>
+
 <h3 align="left">Python</h3>
 
 ```python
@@ -201,7 +201,7 @@ model_training_history = model.fit(
     callbacks=[early_stopping]
 )
 ```
-
+<br>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
   <img src="https://github.com/user-attachments/assets/ebc61cf6-db05-462d-8fa8-2ef778d9d28e" alt="Model_2" width="500">
