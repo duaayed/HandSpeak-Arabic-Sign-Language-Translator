@@ -86,6 +86,11 @@ After extensive research and evaluation of various datasets, we concluded that K
       <td>Respiratory device</td>
     </tr>
     <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
       <td>166</td>
       <td>يشم</td>
       <td>Inhale</td>
@@ -107,7 +112,7 @@ After extensive research and evaluation of various datasets, we concluded that K
     </tr>
     <tr>
       <td>170</td>
-      <td>يغلق ( يغلق )</td>
+      <td>يقفل ( يغلق )</td>
       <td>Close</td>
     </tr>
   </tbody>
