@@ -9,10 +9,10 @@
 </div>
 
 1. [Overview](#overview)
-   - • [Motivation](#motivation)
-   - • [Project Aim and Objectives](#project-aim-and-objectives)
-   - • [Project Scope](#project-scope)
-   - • [Goals](#goals)
+    • [Motivation](#motivation)
+    • [Project Aim and Objectives](#project-aim-and-objectives)
+    • [Project Scope](#project-scope)
+    • [Goals](#goals)
 2. [Dataset](#dataset)
 3. [Usability and User Experience Goals](#usability-and-user-experience-goals)
    - • [Usability Goals](#usability-goals)
