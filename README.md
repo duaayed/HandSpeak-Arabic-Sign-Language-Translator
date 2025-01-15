@@ -347,29 +347,5 @@ architectures.
       <td>len(words)</td>
       <td>Number of classes in the output layer, based on the unique words/signs in the dataset.</td>
     </tr>
-    <tr>
-      <td><b>learning_rate</b></td>
-      <td>float</td>
-      <td>0.001</td>
-      <td>Initial learning rate for the optimizer.</td>
-    </tr>
-    <tr>
-      <td><b>dropout_rate</b></td>
-      <td>float</td>
-      <td>0.2</td>
-      <td>Dropout rate applied to LSTM layers to prevent overfitting.</td>
-    </tr>
-    <tr>
-      <td><b>activation_hidden</b></td>
-      <td>str</td>
-      <td>relu</td>
-      <td>Activation function for hidden Dense layers.</td>
-    </tr>
-    <tr>
-      <td><b>final_activation</b></td>
-      <td>str</td>
-      <td>softmax</td>
-      <td>Activation function for the output layer.</td>
-    </tr>
   </tbody>
 </table>
