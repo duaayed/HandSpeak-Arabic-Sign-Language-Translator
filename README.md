@@ -7,10 +7,9 @@
 <div align="center">
   <hr style="border: 3px solid black; width: 80%;">
 </div>
-## Table of Contents
 
 1. [Overview](#overview)
-   - [Motivation](#motivation)
+   • [Motivation](#motivation)
    - [Project Aim and Objectives](#project-aim-and-objectives)
    - [Project Scope](#project-scope)
    - [Goals](#goals)
