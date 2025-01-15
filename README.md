@@ -9,4 +9,14 @@
 </div>
 <h2 align="left">Overview</h2>
 Sign language consists of gestures and expressions used mainly by the hearing-impaired to talk. This project is an effort to bridge the communication gap between the hearing and the hearing-impaired community using Artificial Intelligence.
-<h3 align="left">i. Project Aim and Objectives</h3>
+<details>
+  <summary><h3 align="left">i. Project Aim and Objectives</h3></summary>
+  
+  **Content goes here:**
+  - Objective 1
+  - Objective 2
+  - Objective 3
+  
+  You can add any Markdown content, including text, images, and lists.
+</details>
+
