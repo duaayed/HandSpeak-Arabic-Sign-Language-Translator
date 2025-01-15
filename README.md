@@ -51,6 +51,8 @@ After extensive research and evaluation of various datasets, we concluded that K
 
 <div align="center" style="display: flex; justify-content: center; align-items: flex-start;">
 
+<div align="center" style="display: flex; justify-content: center; align-items: flex-start;">
+
   <!-- Table -->
   <div style="margin-right: 20px;">
     <table>
@@ -123,7 +125,8 @@ After extensive research and evaluation of various datasets, we concluded that K
 
   <!-- Image -->
   <div>
-    <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints" width="300">
+    <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints" width="150">
   </div>
 
 </div>
+
