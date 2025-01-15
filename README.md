@@ -171,3 +171,34 @@ the ideal choice for addressing the challenges posed by the intricate structure 
   <img src="https://github.com/user-attachments/assets/ebc61cf6-db05-462d-8fa8-2ef778d9d28e" alt="Model_2" width="500">
 </div>
 
+```python
+# Define the Bidirectional LSTM model with Attention
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
+    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)),
+    tf.keras.layers.Dense(32, activation='relu'),
+    tf.keras.layers.Dense(len(words), activation='softmax')
+])
+
+# Compile the model
+
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['categorical_accuracy'])
+
+# Set up early stopping
+early_stopping = tf.keras.callbacks.EarlyStopping(
+    monitor='val_loss',  # Metric to monitor for early stopping
+    mode='min',  # Set mode to 'min' for minimizing the metric
+    patience=5,  # Number of epochs with no improvement before stopping
+    restore_best_weights=True,  # Restore the best model weights
+    verbose=1
+)
+
+model_training_history = model.fit(
+    X_train, y_train, 
+    batch_size=32, 
+    validation_data=(X_val, y_val), 
+    validation_batch_size=32, 
+    epochs=50, 
+    callbacks=[early_stopping]
+)
