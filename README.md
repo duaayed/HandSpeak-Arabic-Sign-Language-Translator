@@ -8,10 +8,10 @@
   <hr style="border: 3px solid black; width: 80%;">
 </div>
 
-1. [Overview](#overview)
-    • [Motivation](#motivation)
-    • [Project Aim and Objectives](#project-aim-and-objectives)
-    • [Project Scope](#project-scope)
+1. [Overview](#overview)<br>
+    • [Motivation](#motivation)<br>
+    • [Project Aim and Objectives](#project-aim-and-objectives)<br>
+    • [Project Scope](#project-scope)<br>
     • [Goals](#goals)
 2. [Dataset](#dataset)
 3. [Usability and User Experience Goals](#usability-and-user-experience-goals)
