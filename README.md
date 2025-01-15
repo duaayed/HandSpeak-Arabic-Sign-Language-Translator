@@ -4,4 +4,7 @@
   <img src="https://github.com/user-attachments/assets/04911c8b-8202-4d12-82ac-5832100537ce" alt="Untitled design" width="200">
 </div>
 <h4 align="center">Sign Language Model to Translate Arabic sign Language Into Text</h4>
-___
+<div align="center">
+  <hr style="border: 3px solid black; width: 80%;">
+</div>
+
