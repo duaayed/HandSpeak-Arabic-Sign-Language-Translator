@@ -172,7 +172,8 @@ the ideal choice for addressing the challenges posed by the intricate structure 
 </div>
 ```mermaid
 graph TD
-    A[Input Layer<br>Input: (6777, 48, 225)<br>Output: (6777, 48, 225)] --> B[Bidirectional(LSTM)<br>Input: (6777, 48, 225)<br>Output: (6777, 48, 128)]
-    B --> C[Bidirectional(LSTM)<br>Input: (6777, 48, 128)<br>Output: (6777, 128)]
-    C --> D[Dense (ReLU)<br>Input: (6777, 128)<br>Output: (6777, 32)]
-    D --> E[Dense (Softmax)<br>Input: (6777, 32)<br>Output: (6777, 100)]
+    A["Input Layer<br>Input: (6777, 48, 225)<br>Output: (6777, 48, 225)"] --> B["Bidirectional(LSTM)<br>Input: (6777, 48, 225)<br>Output: (6777, 48, 128)"]
+    B --> C["Bidirectional(LSTM)<br>Input: (6777, 48, 128)<br>Output: (6777, 128)"]
+    C --> D["Dense (ReLU)<br>Input: (6777, 128)<br>Output: (6777, 32)"]
+    D --> E["Dense (Softmax)<br>Input: (6777, 32)<br>Output: (6777, 100)"]
+
