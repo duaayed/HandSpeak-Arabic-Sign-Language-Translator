@@ -53,80 +53,74 @@ After extensive research and evaluation of various datasets, we concluded that K
 
 <div align="center" style="display: flex; justify-content: center; align-items: flex-start;">
 
-  <!-- Table -->
-  <div style="margin-right: 20px;">
-    <table>
-      <thead>
-        <tr>
-          <th>SignID</th>
-          <th>Sign-Arabic</th>
-          <th>Sign-English</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>71</td>
-          <td>هيكل عظمي</td>
-          <td>Skeleton</td>
-        </tr>
-        <tr>
-          <td>72</td>
-          <td>جمجمة</td>
-          <td>Skull</td>
-        </tr>
-        <tr>
-          <td>73</td>
-          <td>عمود فقري</td>
-          <td>Backbone</td>
-        </tr>
-        <tr>
-          <td>74</td>
-          <td>قفص صدري</td>
-          <td>Chest</td>
-        </tr>
-        <tr>
-          <td>75</td>
-          <td>جهاز تنفسي</td>
-          <td>Respiratory device</td>
-        </tr>
-        <tr>
-          <td>...</td>
-          <td>...</td>
-          <td>...</td>
-        </tr>
-        <tr>
-          <td>166</td>
-          <td>يشم</td>
-          <td>Inhale</td>
-        </tr>
-        <tr>
-          <td>167</td>
-          <td>يصعد</td>
-          <td>Rise</td>
-        </tr>
-        <tr>
-          <td>168</td>
-          <td>ينزل</td>
-          <td>Descend</td>
-        </tr>
-        <tr>
-          <td>169</td>
-          <td>يفتح</td>
-          <td>Open</td>
-        </tr>
-        <tr>
-          <td>170</td>
-          <td>يقفل ( يغلق )</td>
-          <td>Close</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+ <div align="center">
 
-  <!-- Image -->
-  <div>
-    <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints">
-  </div>
+<table>
+  <thead>
+    <tr>
+      <th>SignID</th>
+      <th>Sign-Arabic</th>
+      <th>Sign-English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>71</td>
+      <td>هيكل عظمي</td>
+      <td>Skeleton</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>جمجمة</td>
+      <td>Skull</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>عمود فقري</td>
+      <td>Backbone</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>قفص صدري</td>
+      <td>Chest</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>جهاز تنفسي</td>
+      <td>Respiratory device</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>166</td>
+      <td>يشم</td>
+      <td>Inhale</td>
+    </tr>
+    <tr>
+      <td>167</td>
+      <td>يصعد</td>
+      <td>Rise</td>
+    </tr>
+    <tr>
+      <td>168</td>
+      <td>ينزل</td>
+      <td>Descend</td>
+    </tr>
+    <tr>
+      <td>169</td>
+      <td>يفتح</td>
+      <td>Open</td>
+    </tr>
+    <tr>
+      <td>170</td>
+      <td>يقفل ( يغلق )</td>
+      <td>Close</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
