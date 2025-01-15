@@ -14,12 +14,10 @@ Sign language consists of gestures and expressions used mainly by the hearing-im
   
   The main aim of HandSpeak is to develop an artificial intelligence model to bridge the communication gap between Arabic spoken language and Arabic sign language by translating sign language gestures into text in real-time.
 
-  i. Understand how sign language works, and study existing solutions and algorithms related to this project.
-  ii. Collect and prepare a reliable dataset of sign language gestures. Then, preprocess the data to ensure it is ready for training the model.
-  iii. Choose and train a machine learning model to ensure accurate and consistent predictions.
-  iv. Evaluate the system by testing its accuracy, usability, and real-world performance to ensure it meets user needs and expectations.
+  i. Understand how sign language works, and study existing solutions and algorithms related to this project. <br>
+  ii. Collect and prepare a reliable dataset of sign language gestures. Then, preprocess the data to ensure it is ready for training the model. <br>
+  iii. Choose and train a machine learning model to ensure accurate and consistent predictions. <br>
+  iv. Evaluate the system by testing its accuracy, usability, and real-world performance to ensure it meets user needs and expectations. <br>
   v. Document the entire development process, including design, implementation, and testing, to provide a clear and organized reference for future improvements and similar projects.
-  
+
 </details>
-
-
