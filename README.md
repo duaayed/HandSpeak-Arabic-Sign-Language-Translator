@@ -8,8 +8,8 @@
   <hr style="border: 3px solid black; width: 80%;">
 </div>
 
-1. [Overview](#overview)<br>
-   • [Motivation](#motivation)
+1. [Overview](#overview)
+   - [Motivation](#motivation)
    - [Project Aim and Objectives](#project-aim-and-objectives)
    - [Project Scope](#project-scope)
    - [Goals](#goals)
