@@ -9,8 +9,10 @@
 </div>
 <h2 align="left">Overview</h2>
 Sign language consists of gestures and expressions used mainly by the hearing-impaired to talk. This project is an effort to bridge the communication gap between the hearing and the hearing-impaired community using Artificial Intelligence.
+<h3 align="left">Motivation</h3>
+Due to the small number of people who can read sign language, deaf people frequently experience severe communication difficulties. This leads to difficulties in accessing essential services, social exclusion, and a lack of equal opportunities. An AI-powered model that translates sign language into natural language can bridge this communication gap, fostering better interaction and inclusivity. Such a model would empower deaf people by enabling smooth communication, allowing them to access necessary resources and engage more fully in society.
 <details>
-  <summary><h3 align="left">i. Project Aim and Objectives</h3></summary>
+  <summary><h3 align="left">Project Aim and Objectives</h3></summary>
   
   The main aim of HandSpeak is to develop an artificial intelligence model to bridge the communication gap between Arabic spoken language and Arabic sign language by translating sign language gestures into text in real-time.
 
