@@ -49,7 +49,7 @@ After extensive research and evaluation of various datasets, we concluded that K
   You can access the dataset here: <a href="https://hamzah-luqman.github.io/KArSL/">KARSL Dataset</a>
 </div>
   
- <div align="left">
+ <div align="center">
 
 <table>
   <thead>
