@@ -186,8 +186,10 @@ All keypoints were normalized to remove variations caused by different scales an
 </details>
 
 <h3 align="left">Challenges Faced</h3>
-- Variations in Gestures: Similar starting or ending gestures across different classes required careful preprocessing to ensure clear differentiation. <br>
-- Lighting and Background Differences: Frames were preprocessed to mitigate the impact of varying environmental conditions on keypoint detection. <br>
+• Variations in Gestures: Similar starting or ending gestures across different classes required careful preprocessing to ensure clear differentiation.
+
+• Lighting and Background Differences: Frames were preprocessed to mitigate the impact of varying environmental conditions on keypoint detection.
+
 
 <h3 align="left">Outcome</h3>
 The prepared dataset was optimized for input into the Bidirectional LSTM model. By focusing on normalized and adjusted keypoints, we ensured that the model could learn robustly from the sequential data, leading to high
