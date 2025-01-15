@@ -21,3 +21,13 @@ Sign language consists of gestures and expressions used mainly by the hearing-im
   v. Document the entire development process, including design, implementation, and testing, to provide a clear and organized reference for future improvements and similar projects.
 
 </details>
+<details>
+  <summary><h3 align="left">Project Scope</h3></summary>
+  
+  The scope of this project is to develop an artificial intelligence model that translates sign language into words in real-time, enhancing communication and accessibility for the hearing-impaired community.
+
+  i. Ensure Real-Time Translation: Implement real-time processing to provide immediate translation of sign language to natural language. <br>
+  ii. Support Arabic Language: Focus on providing accurate translation for gestures specific to Arabic sign language, catering to the needs of the Arabic-speaking community. <br>
+  iii. Bridging the communication barriers between deaf people and the community.
+
+</details>
