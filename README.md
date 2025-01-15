@@ -157,6 +157,33 @@ to make the system adaptable and valuable in various real-world scenarios, ensur
 
 </details>
 
+<h2 align="left">Preparing the Dataset</h2>
+Preparing the dataset was a critical step in building our Arabic Sign Language recognition model. We worked extensively with the KArSL Dataset, which contains a comprehensive collection of 502 isolated sign classes
+performed by professional signers. This section details the key steps involved in processing the dataset to ensure it was ready for model training and evaluation.
+
+<details>
+  <summary><h3 align="left">Data Extraction</h3></summary>
+  Each video was analyzed frame by frame to extract keypoints using MediaPipe. This included
+
+  i. **Pose Keypoints**: Representing the full-body structure. <br>
+  ii. **Left Hand Keypoints**: Capturing detailed movements of the left hand. <br>
+  iii. **Right Hand Keypoints**: Capturing detailed movements of the right hand.
+
+</details>
+
+<h3 align="left">Normalization</h3>
+All keypoints were normalized to remove variations caused by different scales and orientations of the input videos. This ensured that the model learned features intrinsic to the gestures rather than irrelevant variations.
+
+<details>
+  <summary><h3 align="left">Generating Arrays</h3></summary>
+  Three arrays were created from the processed data:
+  
+  i. **pose-adjusted**: Adjusted keypoints for the pose in each frame. <br>
+  ii. **lh-adjusted**: Adjusted keypoints for the left hand in each frame. <br>
+  iii. **rh-adjusted**: Adjusted keypoints for the right hand in each frame.
+
+</details>
+
 <h2 align="left">LSTM Model</h2>
 To develop our Arabic sign language model, we utilized a BiLSTM architecture, which is an extension of the Long Short-Term Memory (LSTM) network. LSTM, a type of Recurrent Neural Network (RNN), is specifically designed
 to model and analyze sequential data. It excels in handling long sequences by selectively retaining or discarding information at each time step, enabling it to capture long-range dependencies and make accurate
