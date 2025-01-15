@@ -48,7 +48,7 @@ After extensive research and evaluation of various datasets, we concluded that K
 <div align="center">
   You can access the dataset here: <a href="https://hamzah-luqman.github.io/KArSL/">KARSL Dataset</a>
 </div>
-
+<br><br>
 
 In this project, we utilized the KARSL Dataset. The dataset comprises 502 distinct sign classes, each performed by two signers. These classes were carefully curated to represent a wide range of Arabic sign language
 gestures. The dataset provided a robust foundation for training and evaluating our artificial intelligence model, enabling us to bridge the communication gap between Arabic spoken language and Arabic sign language.
