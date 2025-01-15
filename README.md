@@ -170,10 +170,4 @@ the ideal choice for addressing the challenges posed by the intricate structure 
   <img src="https://github.com/user-attachments/assets/542b4fe0-3810-4da5-b920-5392b3c9b526" alt="Model">
   <img src="https://github.com/user-attachments/assets/ebc61cf6-db05-462d-8fa8-2ef778d9d28e" alt="Model_2" width="500">
 </div>
-```mermaid
-graph TD
-    A["Input Layer<br>Input: (6777, 48, 225)<br>Output: (6777, 48, 225)"] --> B["Bidirectional(LSTM)<br>Input: (6777, 48, 225)<br>Output: (6777, 48, 128)"]
-    B --> C["Bidirectional(LSTM)<br>Input: (6777, 48, 128)<br>Output: (6777, 128)"]
-    C --> D["Dense (ReLU)<br>Input: (6777, 128)<br>Output: (6777, 32)"]
-    D --> E["Dense (Softmax)<br>Input: (6777, 32)<br>Output: (6777, 100)"]
 
