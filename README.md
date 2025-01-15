@@ -129,3 +129,7 @@ gestures. The dataset provided a robust foundation for training and evaluating o
 In this project, we processed the input frames from the **KARSL Dataset** to generate three specific arrays: **pose-adjusted**, **lh-adjusted**, and **rh-adjusted**. These arrays represent the adjusted keypoints for the
 pose, the left hand, and the right hand, respectively. The adjustments ensured that the keypoints were normalized and aligned correctly, enabling consistent and accurate input for the model. This preprocessing step was
 critical for improving the robustness and precision of our system's predictions.
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="logo">
+</div>
