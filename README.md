@@ -49,11 +49,11 @@ After extensive research and evaluation of various datasets, we concluded that K
   You can access the dataset here: <a href="https://hamzah-luqman.github.io/KArSL/">KARSL Dataset</a>
 </div>
   
- <div style="display: flex; justify-content: flex-start; align-items: flex-start;">
+ <div style="display: flex; align-items: flex-start;">
 
   <!-- Table -->
-  <div style="margin-right: 20px;">
-    <table>
+  <div style="flex: 1; max-width: 60%; margin-right: 20px;">
+    <table style="width: 100%;">
       <thead>
         <tr>
           <th>SignID</th>
@@ -122,9 +122,8 @@ After extensive research and evaluation of various datasets, we concluded that K
   </div>
 
   <!-- Image -->
-  <div>
-    <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints">
+  <div style="flex: 1; max-width: 30%;">
+    <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints" style="width: 100%; height: auto;">
   </div>
 
 </div>
-
