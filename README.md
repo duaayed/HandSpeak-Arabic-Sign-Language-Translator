@@ -152,8 +152,10 @@ pose, the left hand, and the right hand, respectively. The adjustments ensured t
 critical for improving the robustness and precision of our system's predictions.
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/318074d9-6899-425b-b1a7-97a70b87703b" alt="Keypoints">
+  <video src="https://github.com/user-attachments/assets/d3494732-097f-4553-8a7f-8e577413c3c0" controls width="600">
+  </video>
 </div>
+
 
 <h2 align="left">Usability and User Experience Goals</h2>
 The usability and user experience goals of this project were carefully designed to prioritize seamless interaction and accessibility. The primary focus was to deliver a system capable of recognizing gestures in real
