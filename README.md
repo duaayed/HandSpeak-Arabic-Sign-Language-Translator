@@ -152,7 +152,7 @@ pose, the left hand, and the right hand, respectively. The adjustments ensured t
 critical for improving the robustness and precision of our system's predictions.
 <br>
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/5cf7e7b8-8bea-4003-b8c3-0aec61e5d8a4" controls width="400">
+  <video src="https://github.com/user-attachments/assets/5cf7e7b8-8bea-4003-b8c3-0aec61e5d8a4" controls width="200">
   </video>
 </div>
 
